@@ -29,7 +29,7 @@ export default function Footer() {
           </a>
           <Link
             className="text-muted-foreground hover:text-foreground transition-colors"
-            href="https://github.com"
+            href="https://github.com/dcavadiam/toolfolio"
             target="_blank"
             rel="noreferrer"
           >
