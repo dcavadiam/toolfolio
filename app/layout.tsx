@@ -23,33 +23,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Toolfolio",
-  description: "Toolfolio es una plataforma de herramientas web para desarrollo, diseño y marketing, entre otras cosas.",
-  icons: {
-    icon: [
-      {
-        url: "/tool-light.ico?v=1",
-        media: "(prefers-color-scheme: light)",
-        type: "image/x-icon",
-      },
-      {
-        url: "/tool-dark.ico?v=1",
-        media: "(prefers-color-scheme: dark)",
-        type: "image/x-icon",
-      },
-    ],
-  },
-  openGraph: {
-    title: "Toolfolio",
-    description: "Toolfolio es una plataforma de herramientas web para desarrollo, diseño y marketing, entre otras cosas.",
-    images: "/og-image.png",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Toolfolio",
-    description: "Toolfolio es una plataforma de herramientas web para desarrollo, diseño y marketing, entre otras cosas.",
-    images: "/og-image.png",
-  },
+  title: "toolfol.io — Próximamente",
+  description: "Próximamente. Estamos preparando toolfol.io.",
 };
 
 export default function RootLayout({
@@ -60,8 +35,7 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      suppressHydrationWarning
-      className={cn("h-full", "antialiased", manrope.variable, inter.variable, geistMono.variable, "font-sans", geist.variable)}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
         {children}
