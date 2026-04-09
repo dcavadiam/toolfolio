@@ -1,0 +1,72 @@
+[
+    { "title": "SVGOMG", "description": "Optimize and clean SVG files to reduce size without losing quality.", "category": "assets", "subCategory": "images", "type": "free", "link": "https://svgomg.net/", "tags": ["svg", "optimization"] },
+    { "title": "Slimify", "description": "Compress images quickly to improve loading performance.", "category": "assets", "subCategory": "images", "type": "free", "link": "https://slimify.app/", "tags": ["images", "performance"] },
+    { "title": "ImgTo", "description": "Convert and optimize images into different formats online.", "category": "assets", "subCategory": "images", "type": "free", "link": "https://imgto.xyz/", "tags": ["converter"] },
+    { "title": "Squoosh", "description": "Advanced image compression with real-time preview.", "category": "assets", "subCategory": "images", "type": "free", "link": "https://squoosh.app/", "tags": ["images", "optimization"] },
+  
+    { "title": "Can I Include", "description": "Check HTML and CSS support across email clients.", "category": "development", "subCategory": "html", "type": "free", "link": "http://caninclude.glitch.me/", "tags": ["email"] },
+  
+    { "title": "Fontsource", "description": "Self-host open-source fonts easily.", "category": "design", "subCategory": "fonts", "type": "free", "link": "https://fontsource.org/", "tags": ["fonts"] },
+    { "title": "Fontjoy", "description": "Generate font pairings using AI.", "category": "design", "subCategory": "fonts", "type": "free", "link": "https://fontjoy.com/", "tags": ["ai"] },
+  
+    { "title": "The Good Line Height", "description": "Find the ideal line height for better readability.", "category": "design", "subCategory": "typography", "type": "free", "link": "https://thegoodlineheight.com/", "tags": ["typography"] },
+    { "title": "OpenGraph", "description": "Preview Open Graph metadata for social sharing.", "category": "productivity", "subCategory": "seo", "type": "free", "link": "https://www.opengraph.xyz/", "tags": ["seo"] },
+  
+    { "title": "Adobe Color", "description": "Create and explore professional color palettes.", "category": "design", "subCategory": "colors", "type": "free", "link": "https://color.adobe.com/es/create/image", "tags": ["colors"] },
+    { "title": "Creative Tim Cheatsheet", "description": "Useful Tailwind and UI cheatsheet resources.", "category": "development", "subCategory": "css", "type": "free", "link": "https://www.creative-tim.com/twcomponents/cheatsheet", "tags": ["tailwind"] },
+    { "title": "Tailwind Shades", "description": "Generate Tailwind color scales instantly.", "category": "design", "subCategory": "colors", "type": "free", "link": "https://www.tailwindshades.com/", "tags": ["tailwind"] },
+    { "title": "UI Colors", "description": "Build consistent UI color palettes.", "category": "design", "subCategory": "colors", "type": "free", "link": "https://uicolors.app/create", "tags": ["ui"] },
+  
+    { "title": "CSS Filter Generator", "description": "Convert colors into CSS filter values.", "category": "development", "subCategory": "css", "type": "free", "link": "https://codepen.io/sosuke/pen/Pjoqqp", "tags": ["css"] },
+    { "title": "Project Wallace", "description": "Analyze and improve CSS code quality.", "category": "development", "subCategory": "css", "type": "free", "link": "https://www.projectwallace.com/css-code-quality", "tags": ["analysis"] },
+    { "title": "Layout Generator", "description": "Experiment with modern CSS layouts.", "category": "development", "subCategory": "css", "type": "free", "link": "https://layout.bradwoods.io/", "tags": ["layout"] },
+    { "title": "Flexbox Labs", "description": "Practice flexbox layouts interactively.", "category": "development", "subCategory": "css", "type": "free", "link": "https://flexboxlabs.netlify.app/", "tags": ["flexbox"] },
+  
+    { "title": "QR Code Monkey", "description": "Generate customizable QR codes.", "category": "utilities", "subCategory": "generator", "type": "free", "link": "https://www.qrcode-monkey.com/", "tags": ["qr"] },
+    { "title": "Slug Generator", "description": "Generate SEO-friendly URL slugs.", "category": "utilities", "subCategory": "generator", "type": "free", "link": "https://slug.vercel.app/", "tags": ["seo"] },
+    { "title": "Tailwind Generator", "description": "Generate Tailwind CSS components quickly.", "category": "development", "subCategory": "generator", "type": "free", "link": "https://www.tailwindgen.com/", "tags": ["tailwind"] },
+    { "title": "Gradii", "description": "Create beautiful gradients.", "category": "design", "subCategory": "generator", "type": "free", "link": "https://www.gradii.fun/", "tags": ["gradients"] },
+  
+    { "title": "Flaticon", "description": "Explore thousands of free icons.", "category": "assets", "subCategory": "icons", "type": "free", "link": "https://www.flaticon.es/", "tags": ["icons"] },
+    { "title": "Tabler Icons", "description": "Open-source SVG icon set.", "category": "assets", "subCategory": "icons", "type": "free", "link": "https://tablericons.com/", "tags": ["icons"] },
+    { "title": "Freepik", "description": "Download graphics, vectors, and assets.", "category": "assets", "subCategory": "images", "type": "free", "link": "https://www.freepik.es/", "tags": ["design"] },
+    { "title": "Storyset", "description": "Customizable illustrations for projects.", "category": "assets", "subCategory": "illustrations", "type": "free", "link": "https://storyset.com/", "tags": ["illustrations"] },
+    { "title": "Chromicons", "description": "Colorful icon pack for modern UIs.", "category": "assets", "subCategory": "icons", "type": "free", "link": "https://lifeomic.github.io/chromicons.com/", "tags": ["icons"] },
+    { "title": "Ray.so", "description": "Generate beautiful code screenshots.", "category": "assets", "subCategory": "code", "type": "free", "link": "https://ray.so/", "tags": ["code"] },
+    { "title": "Uploadcare", "description": "Upload and manage media files.", "category": "assets", "subCategory": "images", "type": "free", "link": "https://uploadcare.com/", "tags": ["upload"] },
+    { "title": "SVGL", "description": "Collection of SVG logos and assets.", "category": "assets", "subCategory": "svg", "type": "free", "link": "https://svgl.app/", "tags": ["svg"] },
+    { "title": "SVG Loaders", "description": "Generate animated SVG loaders.", "category": "assets", "subCategory": "svg", "type": "free", "link": "https://magecdn.com/tools/svg-loaders", "tags": ["loader"] },
+    { "title": "Shots", "description": "Create mockups for screenshots.", "category": "assets", "subCategory": "mockups", "type": "free", "link": "https://shots.so/", "tags": ["mockups"] },
+    { "title": "PostSpark", "description": "Create social media screenshots.", "category": "assets", "subCategory": "mockups", "type": "free", "link": "https://postspark.app/screenshot", "tags": ["social"] },
+  
+    { "title": "v0", "description": "Generate UI using AI prompts.", "category": "ai", "subCategory": "ui", "type": "free", "link": "https://v0.dev/", "tags": ["ai"] },
+  
+    { "title": "Excalidraw", "description": "Sketch diagrams with a hand-drawn style.", "category": "productivity", "subCategory": "diagram", "type": "free", "link": "https://excalidraw.com/", "tags": ["diagram"] },
+  
+    { "title": "Motion", "description": "Modern animation library for React.", "category": "development", "subCategory": "animation", "type": "free", "link": "https://motion.dev/", "tags": ["animation"] },
+    { "title": "Animata", "description": "Collection of animated UI components.", "category": "development", "subCategory": "ui", "type": "free", "link": "https://animata.design/", "tags": ["ui"] },
+    { "title": "Resend", "description": "Modern email API for developers.", "category": "development", "subCategory": "backend", "type": "free", "link": "https://resend.com/home", "tags": ["email"] },
+    { "title": "Particles.js", "description": "Create interactive particle backgrounds.", "category": "development", "subCategory": "animation", "type": "free", "link": "https://particles.js.org/", "tags": ["animation"] },
+    { "title": "Magic UI", "description": "Beautiful UI components for web apps.", "category": "development", "subCategory": "ui", "type": "free", "link": "https://magicui.design/", "tags": ["ui"] },
+    { "title": "Mantine UI", "description": "React components and UI library.", "category": "development", "subCategory": "ui", "type": "free", "link": "https://ui.mantine.dev/", "tags": ["react"] },
+    { "title": "Anime.js", "description": "Lightweight animation library.", "category": "development", "subCategory": "animation", "type": "free", "link": "https://animejs.com/", "tags": ["animation"] },
+    { "title": "GSAP", "description": "High-performance animation library.", "category": "development", "subCategory": "animation", "type": "free", "link": "https://gsap.com/", "tags": ["animation"] },
+    { "title": "Sonner", "description": "Toast notification library.", "category": "development", "subCategory": "ui", "type": "free", "link": "https://sonner.emilkowal.ski/", "tags": ["notifications"] },
+  
+    { "title": "Toools", "description": "Curated collection of design tools.", "category": "inspiration", "subCategory": "tools", "type": "free", "link": "https://www.toools.design/", "tags": ["design"] },
+    { "title": "Dribbble", "description": "Design inspiration platform.", "category": "inspiration", "subCategory": "design", "type": "free", "link": "https://dribbble.com/", "tags": ["design"] },
+    { "title": "BentoGrids", "description": "Collection of grid-based UI layouts.", "category": "inspiration", "subCategory": "ui", "type": "free", "link": "https://bentogrids.com/", "tags": ["ui"] },
+    { "title": "Godly", "description": "Curated web design inspiration.", "category": "inspiration", "subCategory": "web", "type": "free", "link": "https://godly.website/", "tags": ["ui"] },
+    { "title": "Prettyfolio", "description": "Portfolio design inspiration.", "category": "inspiration", "subCategory": "portfolio", "type": "free", "link": "https://www.prettyfolio.com/", "tags": ["portfolio"] },
+  
+    { "title": "RunJS", "description": "Run JavaScript code instantly.", "category": "development", "subCategory": "playground", "type": "free", "link": "https://runjs.app/", "tags": ["javascript"] },
+    { "title": "Quicktype", "description": "Generate types from JSON.", "category": "development", "subCategory": "playground", "type": "free", "link": "https://app.quicktype.io/", "tags": ["typescript"] },
+  
+    { "title": "Frontend Roadmap", "description": "Step-by-step frontend roadmap.", "category": "learning", "subCategory": "roadmap", "type": "free", "link": "https://roadmap.sh/frontend", "tags": ["learning"] },
+    { "title": "Frontend Projects", "description": "Practice projects for frontend developers.", "category": "learning", "subCategory": "projects", "type": "free", "link": "https://roadmap.sh/frontend/projects", "tags": ["practice"] },
+  
+    { "title": "Leaflet", "description": "Interactive maps library.", "category": "development", "subCategory": "maps", "type": "free", "link": "https://leafletjs.com/", "tags": ["maps"] },
+    { "title": "Snazzy Maps", "description": "Custom styles for Google Maps.", "category": "development", "subCategory": "maps", "type": "free", "link": "https://snazzymaps.com/", "tags": ["maps"] },
+  
+    { "title": "LLM Stats", "description": "Compare AI model rankings.", "category": "ai", "subCategory": "analytics", "type": "free", "link": "https://llm-stats.com/", "tags": ["ai"] }
+  ]
