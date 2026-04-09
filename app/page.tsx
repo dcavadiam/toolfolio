@@ -9,17 +9,17 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { formatLabel } from "@/lib/utils";
-import tools from "@/lib/data/tools.json";
+import toolsES from "@/lib/data/tools.es.json";
 
 const toolsData: ToolItem[] = [
-  ...tools.map((tool) => ({
-    title: tool.title,
-    description: tool.description,
-    category: tool.category,
-    subCategory: tool.subCategory,
+  ...toolsES.map((tool) => ({
+    title: tool.title as string,
+    description: tool.description as string,
+    category: tool.category as string,
+    subCategory: tool.subCategory as string,
     type: tool.type as "free" | "paid",
-    tags: tool.tags,
-    link: tool.link,
+    tags: tool.tags as string[],
+    link: tool.link as string,
   })),
 ];
 

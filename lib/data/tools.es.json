@@ -1,0 +1,512 @@
+[
+  {
+    "title": "SVGOMG",
+    "description": "Optimiza y limpia archivos SVG para reducir su tamaño sin perder calidad.",
+    "category": "recursos",
+    "subCategory": "imágenes",
+    "type": "free",
+    "link": "https://svgomg.net/",
+    "tags": ["svg", "optimization"]
+  },
+  {
+    "title": "Slimify",
+    "description": "Comprime imágenes rápidamente para mejorar el rendimiento de carga.",
+    "category": "recursos",
+    "subCategory": "imágenes",
+    "type": "free",
+    "link": "https://slimify.app/",
+    "tags": ["images", "performance"]
+  },
+  {
+    "title": "ImgTo",
+    "description": "Convierte y optimiza imágenes a distintos formatos en línea.",
+    "category": "recursos",
+    "subCategory": "imágenes",
+    "type": "free",
+    "link": "https://imgto.xyz/",
+    "tags": ["converter"]
+  },
+  {
+    "title": "Squoosh",
+    "description": "Compresión avanzada de imágenes con vista previa en tiempo real.",
+    "category": "recursos",
+    "subCategory": "imágenes",
+    "type": "free",
+    "link": "https://squoosh.app/",
+    "tags": ["images", "optimization"]
+  },
+
+  {
+    "title": "Can I Include",
+    "description": "Comprueba la compatibilidad de HTML y CSS en distintos clientes de correo.",
+    "category": "desarrollo",
+    "subCategory": "html",
+    "type": "free",
+    "link": "http://caninclude.glitch.me/",
+    "tags": ["email"]
+  },
+
+  {
+    "title": "Fontsource",
+    "description": "Auto-hospeda tipografías open-source de forma sencilla.",
+    "category": "diseño",
+    "subCategory": "fuentes",
+    "type": "free",
+    "link": "https://fontsource.org/",
+    "tags": ["fonts"]
+  },
+  {
+    "title": "Fontjoy",
+    "description": "Genera combinaciones de tipografías usando IA.",
+    "category": "diseño",
+    "subCategory": "fuentes",
+    "type": "free",
+    "link": "https://fontjoy.com/",
+    "tags": ["ai"]
+  },
+
+  {
+    "title": "The Good Line Height",
+    "description": "Encuentra la altura de línea ideal para mejorar la legibilidad.",
+    "category": "diseño",
+    "subCategory": "tipografía",
+    "type": "free",
+    "link": "https://thegoodlineheight.com/",
+    "tags": ["typography"]
+  },
+  {
+    "title": "OpenGraph",
+    "description": "Previsualiza metadatos Open Graph para compartir en redes sociales.",
+    "category": "productividad",
+    "subCategory": "seo",
+    "type": "free",
+    "link": "https://www.opengraph.xyz/",
+    "tags": ["seo"]
+  },
+
+  {
+    "title": "Adobe Color",
+    "description": "Crea y explora paletas de color profesionales.",
+    "category": "diseño",
+    "subCategory": "colores",
+    "type": "free",
+    "link": "https://color.adobe.com/es/create/image",
+    "tags": ["colors"]
+  },
+  {
+    "title": "Creative Tim Cheatsheet",
+    "description": "Recursos tipo cheatsheet útiles de Tailwind y UI.",
+    "category": "desarrollo",
+    "subCategory": "css",
+    "type": "free",
+    "link": "https://www.creative-tim.com/twcomponents/cheatsheet",
+    "tags": ["tailwind"]
+  },
+  {
+    "title": "Tailwind Shades",
+    "description": "Genera escalas de color para Tailwind al instante.",
+    "category": "diseño",
+    "subCategory": "colores",
+    "type": "free",
+    "link": "https://www.tailwindshades.com/",
+    "tags": ["tailwind"]
+  },
+  {
+    "title": "UI Colors",
+    "description": "Crea paletas de color coherentes para interfaces.",
+    "category": "diseño",
+    "subCategory": "colores",
+    "type": "free",
+    "link": "https://uicolors.app/create",
+    "tags": ["ui"]
+  },
+
+  {
+    "title": "CSS Filter Generator",
+    "description": "Convierte colores a valores de filtros CSS.",
+    "category": "desarrollo",
+    "subCategory": "css",
+    "type": "free",
+    "link": "https://codepen.io/sosuke/pen/Pjoqqp",
+    "tags": ["css"]
+  },
+  {
+    "title": "Project Wallace",
+    "description": "Analiza y mejora la calidad de tu código CSS.",
+    "category": "desarrollo",
+    "subCategory": "css",
+    "type": "free",
+    "link": "https://www.projectwallace.com/css-code-quality",
+    "tags": ["analysis"]
+  },
+  {
+    "title": "Layout Generator",
+    "description": "Experimenta con layouts modernos en CSS.",
+    "category": "desarrollo",
+    "subCategory": "css",
+    "type": "free",
+    "link": "https://layout.bradwoods.io/",
+    "tags": ["layout"]
+  },
+  {
+    "title": "Flexbox Labs",
+    "description": "Practica layouts con flexbox de forma interactiva.",
+    "category": "desarrollo",
+    "subCategory": "css",
+    "type": "free",
+    "link": "https://flexboxlabs.netlify.app/",
+    "tags": ["flexbox"]
+  },
+
+  {
+    "title": "QR Code Monkey",
+    "description": "Genera códigos QR personalizables.",
+    "category": "utilidades",
+    "subCategory": "generador",
+    "type": "free",
+    "link": "https://www.qrcode-monkey.com/",
+    "tags": ["qr"]
+  },
+  {
+    "title": "Slug Generator",
+    "description": "Genera slugs de URL amigables para SEO.",
+    "category": "utilidades",
+    "subCategory": "generador",
+    "type": "free",
+    "link": "https://slug.vercel.app/",
+    "tags": ["seo"]
+  },
+  {
+    "title": "Tailwind Generator",
+    "description": "Genera componentes de Tailwind CSS rápidamente.",
+    "category": "desarrollo",
+    "subCategory": "generador",
+    "type": "free",
+    "link": "https://www.tailwindgen.com/",
+    "tags": ["tailwind"]
+  },
+  {
+    "title": "Gradii",
+    "description": "Crea degradados bonitos en segundos.",
+    "category": "diseño",
+    "subCategory": "generador",
+    "type": "free",
+    "link": "https://www.gradii.fun/",
+    "tags": ["gradients"]
+  },
+
+  {
+    "title": "Flaticon",
+    "description": "Explora miles de iconos gratuitos.",
+    "category": "recursos",
+    "subCategory": "iconos",
+    "type": "free",
+    "link": "https://www.flaticon.es/",
+    "tags": ["icons"]
+  },
+  {
+    "title": "Tabler Icons",
+    "description": "Set de iconos SVG open-source.",
+    "category": "recursos",
+    "subCategory": "iconos",
+    "type": "free",
+    "link": "https://tablericons.com/",
+    "tags": ["icons"]
+  },
+  {
+    "title": "Freepik",
+    "description": "Descarga gráficos, vectores y recursos.",
+    "category": "recursos",
+    "subCategory": "imágenes",
+    "type": "free",
+    "link": "https://www.freepik.es/",
+    "tags": ["design"]
+  },
+  {
+    "title": "Storyset",
+    "description": "Ilustraciones personalizables para proyectos.",
+    "category": "recursos",
+    "subCategory": "ilustraciones",
+    "type": "free",
+    "link": "https://storyset.com/",
+    "tags": ["illustrations"]
+  },
+  {
+    "title": "Chromicons",
+    "description": "Paquete de iconos colorido para UIs modernas.",
+    "category": "recursos",
+    "subCategory": "iconos",
+    "type": "free",
+    "link": "https://lifeomic.github.io/chromicons.com/",
+    "tags": ["icons"]
+  },
+  {
+    "title": "Ray.so",
+    "description": "Genera capturas bonitas de tu código.",
+    "category": "recursos",
+    "subCategory": "código",
+    "type": "free",
+    "link": "https://ray.so/",
+    "tags": ["code"]
+  },
+  {
+    "title": "Uploadcare",
+    "description": "Sube y gestiona archivos multimedia.",
+    "category": "recursos",
+    "subCategory": "imágenes",
+    "type": "free",
+    "link": "https://uploadcare.com/",
+    "tags": ["upload"]
+  },
+  {
+    "title": "SVGL",
+    "description": "Colección de logos y recursos en SVG.",
+    "category": "recursos",
+    "subCategory": "svg",
+    "type": "free",
+    "link": "https://svgl.app/",
+    "tags": ["svg"]
+  },
+  {
+    "title": "SVG Loaders",
+    "description": "Genera loaders animados en SVG.",
+    "category": "recursos",
+    "subCategory": "svg",
+    "type": "free",
+    "link": "https://magecdn.com/tools/svg-loaders",
+    "tags": ["loader"]
+  },
+  {
+    "title": "Shots",
+    "description": "Crea mockups para tus capturas de pantalla.",
+    "category": "recursos",
+    "subCategory": "mockups",
+    "type": "free",
+    "link": "https://shots.so/",
+    "tags": ["mockups"]
+  },
+  {
+    "title": "PostSpark",
+    "description": "Crea capturas para redes sociales.",
+    "category": "recursos",
+    "subCategory": "mockups",
+    "type": "free",
+    "link": "https://postspark.app/screenshot",
+    "tags": ["social"]
+  },
+
+  {
+    "title": "v0",
+    "description": "Genera UI mediante prompts con IA.",
+    "category": "ia",
+    "subCategory": "ui",
+    "type": "free",
+    "link": "https://v0.dev/",
+    "tags": ["ai"]
+  },
+
+  {
+    "title": "Excalidraw",
+    "description": "Dibuja diagramas con estilo “hand-drawn”.",
+    "category": "productividad",
+    "subCategory": "diagramas",
+    "type": "free",
+    "link": "https://excalidraw.com/",
+    "tags": ["diagram"]
+  },
+
+  {
+    "title": "Motion",
+    "description": "Librería moderna de animaciones para React.",
+    "category": "desarrollo",
+    "subCategory": "animación",
+    "type": "free",
+    "link": "https://motion.dev/",
+    "tags": ["animation"]
+  },
+  {
+    "title": "Animata",
+    "description": "Colección de componentes UI animados.",
+    "category": "desarrollo",
+    "subCategory": "ui",
+    "type": "free",
+    "link": "https://animata.design/",
+    "tags": ["ui"]
+  },
+  {
+    "title": "Resend",
+    "description": "API moderna de email para desarrolladores.",
+    "category": "desarrollo",
+    "subCategory": "backend",
+    "type": "free",
+    "link": "https://resend.com/home",
+    "tags": ["email"]
+  },
+  {
+    "title": "Particles.js",
+    "description": "Crea fondos interactivos de partículas.",
+    "category": "desarrollo",
+    "subCategory": "animación",
+    "type": "free",
+    "link": "https://particles.js.org/",
+    "tags": ["animation"]
+  },
+  {
+    "title": "Magic UI",
+    "description": "Componentes UI bonitos para apps web.",
+    "category": "desarrollo",
+    "subCategory": "ui",
+    "type": "free",
+    "link": "https://magicui.design/",
+    "tags": ["ui"]
+  },
+  {
+    "title": "Mantine UI",
+    "description": "Librería de componentes React.",
+    "category": "desarrollo",
+    "subCategory": "ui",
+    "type": "free",
+    "link": "https://ui.mantine.dev/",
+    "tags": ["react"]
+  },
+  {
+    "title": "Anime.js",
+    "description": "Librería de animaciones ligera.",
+    "category": "desarrollo",
+    "subCategory": "animación",
+    "type": "free",
+    "link": "https://animejs.com/",
+    "tags": ["animation"]
+  },
+  {
+    "title": "GSAP",
+    "description": "Librería de animación de alto rendimiento.",
+    "category": "desarrollo",
+    "subCategory": "animación",
+    "type": "free",
+    "link": "https://gsap.com/",
+    "tags": ["animation"]
+  },
+  {
+    "title": "Sonner",
+    "description": "Librería de notificaciones tipo toast.",
+    "category": "desarrollo",
+    "subCategory": "ui",
+    "type": "free",
+    "link": "https://sonner.emilkowal.ski/",
+    "tags": ["notifications"]
+  },
+
+  {
+    "title": "Toools",
+    "description": "Colección curada de herramientas de diseño.",
+    "category": "inspiración",
+    "subCategory": "herramientas",
+    "type": "free",
+    "link": "https://www.toools.design/",
+    "tags": ["design"]
+  },
+  {
+    "title": "Dribbble",
+    "description": "Plataforma de inspiración de diseño.",
+    "category": "inspiración",
+    "subCategory": "diseño",
+    "type": "free",
+    "link": "https://dribbble.com/",
+    "tags": ["design"]
+  },
+  {
+    "title": "BentoGrids",
+    "description": "Colección de layouts UI basados en grids.",
+    "category": "inspiración",
+    "subCategory": "ui",
+    "type": "free",
+    "link": "https://bentogrids.com/",
+    "tags": ["ui"]
+  },
+  {
+    "title": "Godly",
+    "description": "Inspiración curada de diseño web.",
+    "category": "inspiración",
+    "subCategory": "web",
+    "type": "free",
+    "link": "https://godly.website/",
+    "tags": ["ui"]
+  },
+  {
+    "title": "Prettyfolio",
+    "description": "Inspiración para diseño de portfolios.",
+    "category": "inspiración",
+    "subCategory": "portafolio",
+    "type": "free",
+    "link": "https://www.prettyfolio.com/",
+    "tags": ["portfolio"]
+  },
+
+  {
+    "title": "RunJS",
+    "description": "Ejecuta código JavaScript al instante.",
+    "category": "desarrollo",
+    "subCategory": "playground",
+    "type": "free",
+    "link": "https://runjs.app/",
+    "tags": ["javascript"]
+  },
+  {
+    "title": "Quicktype",
+    "description": "Genera tipos a partir de JSON.",
+    "category": "desarrollo",
+    "subCategory": "playground",
+    "type": "free",
+    "link": "https://app.quicktype.io/",
+    "tags": ["typescript"]
+  },
+
+  {
+    "title": "Frontend Roadmap",
+    "description": "Roadmap de frontend paso a paso.",
+    "category": "aprendizaje",
+    "subCategory": "ruta",
+    "type": "free",
+    "link": "https://roadmap.sh/frontend",
+    "tags": ["learning"]
+  },
+  {
+    "title": "Frontend Projects",
+    "description": "Proyectos de práctica para desarrolladores frontend.",
+    "category": "aprendizaje",
+    "subCategory": "proyectos",
+    "type": "free",
+    "link": "https://roadmap.sh/frontend/projects",
+    "tags": ["practice"]
+  },
+
+  {
+    "title": "Leaflet",
+    "description": "Librería para mapas interactivos.",
+    "category": "desarrollo",
+    "subCategory": "mapas",
+    "type": "free",
+    "link": "https://leafletjs.com/",
+    "tags": ["maps"]
+  },
+  {
+    "title": "Snazzy Maps",
+    "description": "Estilos personalizados para Google Maps.",
+    "category": "desarrollo",
+    "subCategory": "mapas",
+    "type": "free",
+    "link": "https://snazzymaps.com/",
+    "tags": ["maps"]
+  },
+
+  {
+    "title": "LLM Stats",
+    "description": "Compara rankings de modelos de IA.",
+    "category": "ia",
+    "subCategory": "analítica",
+    "type": "free",
+    "link": "https://llm-stats.com/",
+    "tags": ["ai"]
+  }
+]

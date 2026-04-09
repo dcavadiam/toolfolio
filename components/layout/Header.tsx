@@ -1,4 +1,3 @@
-import Link from "next/link";
 import HeaderButton from "./HeaderButton";
 
 export default function Header() {
