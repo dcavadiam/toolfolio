@@ -19,6 +19,7 @@ const toolsData: ToolItem[] = [
     subCategory: tool.subCategory as string,
     type: tool.type as "free" | "paid",
     tags: tool.tags as string[],
+    icon: (tool as { icon?: string }).icon,
     link: tool.link as string,
   })),
 ];

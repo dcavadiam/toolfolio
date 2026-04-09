@@ -5,7 +5,7 @@ export default function Footer() {
   const suggestMailtoHref = `mailto:diegocamodev@gmail.com?subject=${encodeURIComponent("Sugerencia de herramienta")}`;
 
   return (
-    <footer className="border-t border-border-default px-4 py-10">
+    <footer className="border-t border-border px-4 py-10">
       <section className="mx-auto flex w-full max-w-6xl flex-col gap-8 md:flex-row md:items-center md:justify-between">
         <div className="flex flex-col gap-2">
           <p className="font-headline text-lg font-bold tracking-tight font-heading">

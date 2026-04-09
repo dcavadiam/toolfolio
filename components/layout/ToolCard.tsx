@@ -64,7 +64,7 @@ export default function ToolCard({
           <span className="font-medium text-foreground/90">
             {formatLabel(subCategory)}
           </span>
-          <span className="mx-1.5 text-border">·</span>
+          <span className="mx-1.5 text-muted-foreground/60">·</span>
           <span>{formatLabel(category)}</span>
         </p>
         <button className="!p-0" onClick={() => {

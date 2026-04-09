@@ -2,7 +2,7 @@ import HeaderButton from "./HeaderButton";
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-between border-b border-border-default py-4 shadow-lg shadow-foreground/5 px-4">
+    <header className="flex items-center justify-between border-b border-border py-4 shadow-lg shadow-foreground/5 px-4">
       <section className="flex items-center justify-between gap-4 w-full max-w-6xl mx-auto">
         <h1 className="font-headline text-2xl font-bold tracking-tight font-heading">
           <span className="text-primary">Toolfol</span>.io
