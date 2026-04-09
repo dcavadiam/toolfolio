@@ -67,10 +67,16 @@ export default function ToolCard({
           <span className="mx-1.5 text-muted-foreground/60">·</span>
           <span>{formatLabel(category)}</span>
         </p>
-        <button className="!p-0" onClick={() => {
-          window.open(link, "_blank");
-        }}>
+        <button
+          className="!p-0"
+          type="button"
+          aria-label={`Abrir ${title} en una pestaña nueva`}
+          onClick={() => {
+            window.open(link, "_blank");
+          }}
+        >
           <ArrowRightIcon className="size-4 text-primary" />
+          <span className="sr-only">{`Abrir ${title}`}</span>
         </button>
       </div>
     </div>
