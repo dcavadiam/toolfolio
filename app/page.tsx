@@ -59,7 +59,7 @@ export default function Home() {
           </div> */}
         </section>
         {/* Tools list */}
-        <section className="flex flex-col items-center justify-center gap-12 pb-24 w-full max-w-6xl mx-auto">
+        <section id="categories" className="flex flex-col items-center justify-center gap-12 pb-24 w-full max-w-6xl mx-auto">
           {Object.entries(toolsByCategory).map(([category, categoryTools]) => (
             <div key={category} className="flex w-full flex-col gap-4 text-left">
               <h2 className="text-2xl font-bold tracking-tight">

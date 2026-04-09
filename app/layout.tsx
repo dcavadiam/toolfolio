@@ -3,6 +3,7 @@ import { Geist_Mono, Inter, Manrope, Geist } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import Footer from "@/components/layout/Footer";
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
@@ -64,6 +65,7 @@ export default function RootLayout({
     >
       <body className="flex min-h-full flex-col">
         {children}
+        <Footer />
       </body>
     </html>
   );
