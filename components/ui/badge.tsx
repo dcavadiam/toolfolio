@@ -16,6 +16,7 @@ export default function Badge({ children, variant = "free" }: BadgeProps) {
         "inline-flex shrink-0 items-center rounded-md px-2 py-1 text-xs font-semibold uppercase tracking-widest",
       )}
     >
+      
       {children}
     </span>
   );
