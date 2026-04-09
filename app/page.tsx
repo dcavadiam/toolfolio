@@ -1,5 +1,6 @@
 import Header from "@/components/layout/Header";
 import ToolCard from "@/components/layout/ToolCard";
+import type { ToolItem } from "@/types";
 import {
   Carousel,
   CarouselContent,
@@ -8,19 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { formatLabel } from "@/lib/utils";
-import type { ReactNode } from "react";
 import tools from "@/lib/data/tools.json";
-
-type ToolItem = {
-  title: string;
-  description: string;
-  category: string;
-  subCategory: string;
-  type: "free" | "paid";
-  tags: string[];
-  icon?: ReactNode;
-  link: string;
-};
 
 const toolsData: ToolItem[] = [
   ...tools.map((tool) => ({
@@ -38,8 +27,6 @@ const toolsByCategory = toolsData.reduce<Record<string, ToolItem[]>>((acc, tool)
   (acc[tool.category] ??= []).push(tool);
   return acc;
 }, {});
-
-
 
 export default function Home() {
   return (

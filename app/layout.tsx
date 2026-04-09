@@ -24,6 +24,31 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Toolfolio",
   description: "Toolfolio es una plataforma de herramientas web para desarrollo, diseño y marketing, entre otras cosas.",
+  icons: {
+    icon: [
+      {
+        url: "/tool-light.ico?v=1",
+        media: "(prefers-color-scheme: light)",
+        type: "image/x-icon",
+      },
+      {
+        url: "/tool-dark.ico?v=1",
+        media: "(prefers-color-scheme: dark)",
+        type: "image/x-icon",
+      },
+    ],
+  },
+  openGraph: {
+    title: "Toolfolio",
+    description: "Toolfolio es una plataforma de herramientas web para desarrollo, diseño y marketing, entre otras cosas.",
+    images: "/og-image.png",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Toolfolio",
+    description: "Toolfolio es una plataforma de herramientas web para desarrollo, diseño y marketing, entre otras cosas.",
+    images: "/og-image.png",
+  },
 };
 
 export default function RootLayout({
@@ -38,13 +63,6 @@ export default function RootLayout({
       className={cn("h-full", "antialiased", manrope.variable, inter.variable, geistMono.variable, "font-sans", geist.variable)}
     >
       <body className="flex min-h-full flex-col">
-        <Script
-          id="theme-init"
-          strategy="beforeInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `(function(){var m=window.matchMedia("(prefers-color-scheme: dark)");function s(){document.documentElement.classList.toggle("dark",m.matches)}s();m.addEventListener("change",s)})();`,
-          }}
-        />
         {children}
       </body>
     </html>
