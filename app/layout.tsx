@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist_Mono, Inter, Manrope, Geist } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Footer from "@/components/layout/Footer";
@@ -23,8 +22,31 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "toolfol.io — Próximamente",
-  description: "Próximamente. Estamos preparando toolfol.io.",
+  title: "toolfol.io",
+  description: "Herramientas web para desarrollo, diseño y marketing.",
+  icons: {
+    icon: [
+      {
+        url: "/tool-light.ico",
+        media: "(prefers-color-scheme: light)",
+      },
+      {
+        url: "/tool-dark.ico",
+        media: "(prefers-color-scheme: dark)",
+      },
+    ],
+  },
+  openGraph: {
+    title: "toolfol.io",
+    description: "Herramientas web para desarrollo, diseño y marketing.",
+    images: "/og-image.png",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "toolfol.io",
+    description: "Herramientas web para desarrollo, diseño y marketing.",
+    images: "/og-image.png",
+  },
 };
 
 export default function RootLayout({
