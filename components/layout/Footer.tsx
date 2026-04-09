@@ -2,6 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   const year = new Date().getFullYear();
+  const suggestMailtoHref = `mailto:diegocamodev@gmail.com?subject=${encodeURIComponent("Sugerencia de herramienta")}`;
 
   return (
     <footer className="border-t border-border-default px-4 py-10">
@@ -23,9 +24,9 @@ export default function Footer() {
           <Link className="text-muted-foreground hover:text-foreground transition-colors" href="#categories">
             Categorías
           </Link>
-          <Link className="text-muted-foreground hover:text-foreground transition-colors" href="/#">
+          <a className="text-muted-foreground hover:text-foreground transition-colors" href={suggestMailtoHref}>
             Sugerir herramienta
-          </Link>
+          </a>
           <Link
             className="text-muted-foreground hover:text-foreground transition-colors"
             href="https://github.com"
