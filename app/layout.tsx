@@ -39,13 +39,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "toolfol.io",
     description: "Herramientas web para desarrollo, diseño y marketing.",
-    images: "/og-image.png",
+    images: "/og-image.webp",
   },
   twitter: {
     card: "summary_large_image",
     title: "toolfol.io",
     description: "Herramientas web para desarrollo, diseño y marketing.",
-    images: "/og-image.png",
+    images: "/og-image.webp",
   },
 };
 
