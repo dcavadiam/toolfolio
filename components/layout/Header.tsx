@@ -8,11 +8,11 @@ export default function Header() {
         <h1 className="font-headline text-2xl font-bold tracking-tight font-heading">
           <span className="text-primary">Toolfol</span>.io
         </h1>
-        <nav className="flex items-center gap-8 ">
+        {/* <nav className="flex items-center gap-8 ">
           <Link href="/">Inicio</Link>
           <Link href="/">Acerca de</Link>
           <Link href="/">Contacto</Link>
-        </nav>
+        </nav> */}
         <HeaderButton />
       </section>
     </header>

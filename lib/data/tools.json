@@ -1,0 +1,317 @@
+[
+    {
+      "title": "SVGOMG",
+      "description": "Optimize and clean SVG files to reduce size without losing quality.",
+      "category": "assets",
+      "subCategory": "images",
+      "type": "free",
+      "link": "https://svgomg.net/",
+      "tags": ["svg", "optimization"]
+    },
+    {
+      "title": "Slimify",
+      "description": "Compress images quickly to improve loading performance.",
+      "category": "assets",
+      "subCategory": "images",
+      "type": "free",
+      "link": "https://slimify.app/",
+      "tags": ["images", "performance"]
+    },
+    {
+      "title": "ImgTo",
+      "description": "Convert and optimize images into different formats online.",
+      "category": "assets",
+      "subCategory": "images",
+      "type": "free",
+      "link": "https://imgto.xyz/",
+      "tags": ["converter", "images"]
+    },
+    {
+      "title": "Squoosh",
+      "description": "Advanced image compression tool with real-time preview.",
+      "category": "assets",
+      "subCategory": "images",
+      "type": "free",
+      "link": "https://squoosh.app/",
+      "tags": ["images", "optimization"]
+    },
+    {
+      "title": "Can I Include",
+      "description": "Check HTML and CSS support across email clients.",
+      "category": "development",
+      "subCategory": "html",
+      "type": "free",
+      "link": "http://caninclude.glitch.me/",
+      "tags": ["html", "email"]
+    },
+    {
+      "title": "Fontsource",
+      "description": "Self-host open-source fonts easily in your projects.",
+      "category": "design",
+      "subCategory": "fonts",
+      "type": "free",
+      "link": "https://fontsource.org/",
+      "tags": ["fonts"]
+    },
+    {
+      "title": "Fontjoy",
+      "description": "Generate beautiful font pairings using AI.",
+      "category": "design",
+      "subCategory": "fonts",
+      "type": "free",
+      "link": "https://fontjoy.com/",
+      "tags": ["fonts", "ai"]
+    },
+    {
+      "title": "The Good Line Height",
+      "description": "Find the ideal line height for better readability.",
+      "category": "design",
+      "subCategory": "typography",
+      "type": "free",
+      "link": "https://thegoodlineheight.com/",
+      "tags": ["typography"]
+    },
+    {
+      "title": "OpenGraph",
+      "description": "Preview and test Open Graph metadata for social sharing.",
+      "category": "productivity",
+      "subCategory": "seo",
+      "type": "free",
+      "link": "https://www.opengraph.xyz/",
+      "tags": ["seo", "social"]
+    },
+    {
+      "title": "Adobe Color",
+      "description": "Create and explore professional color palettes.",
+      "category": "design",
+      "subCategory": "colors",
+      "type": "free",
+      "link": "https://color.adobe.com/es/create/image",
+      "tags": ["colors", "design"]
+    },
+    {
+      "title": "Tailwind Shades",
+      "description": "Generate Tailwind-compatible color scales instantly.",
+      "category": "design",
+      "subCategory": "colors",
+      "type": "free",
+      "link": "https://www.tailwindshades.com/",
+      "tags": ["tailwind", "colors"]
+    },
+    {
+      "title": "UI Colors",
+      "description": "Build consistent UI color systems quickly.",
+      "category": "design",
+      "subCategory": "colors",
+      "type": "free",
+      "link": "https://uicolors.app/create",
+      "tags": ["ui", "colors"]
+    },
+    {
+      "title": "CSS Filter Generator",
+      "description": "Convert colors into CSS filter values.",
+      "category": "development",
+      "subCategory": "css",
+      "type": "free",
+      "link": "https://codepen.io/sosuke/pen/Pjoqqp",
+      "tags": ["css", "filters"]
+    },
+    {
+      "title": "Project Wallace",
+      "description": "Analyze and improve your CSS code quality.",
+      "category": "development",
+      "subCategory": "css",
+      "type": "free",
+      "link": "https://www.projectwallace.com/css-code-quality",
+      "tags": ["analysis", "css"]
+    },
+    {
+      "title": "Layout Generator",
+      "description": "Experiment with modern CSS layout techniques.",
+      "category": "development",
+      "subCategory": "css",
+      "type": "free",
+      "link": "https://layout.bradwoods.io/",
+      "tags": ["layout", "css"]
+    },
+    {
+      "title": "Flexbox Labs",
+      "description": "Practice and visualize flexbox layouts interactively.",
+      "category": "development",
+      "subCategory": "css",
+      "type": "free",
+      "link": "https://flexboxlabs.netlify.app/",
+      "tags": ["flexbox", "learning"]
+    },
+    {
+      "title": "QR Code Monkey",
+      "description": "Create customizable QR codes for any use case.",
+      "category": "utilities",
+      "subCategory": "generator",
+      "type": "free",
+      "link": "https://www.qrcode-monkey.com/",
+      "tags": ["qr"]
+    },
+    {
+      "title": "Slug Generator",
+      "description": "Generate clean, SEO-friendly URL slugs.",
+      "category": "utilities",
+      "subCategory": "generator",
+      "type": "free",
+      "link": "https://slug.vercel.app/",
+      "tags": ["seo"]
+    },
+    {
+      "title": "Gradii",
+      "description": "Create beautiful gradients for modern UIs.",
+      "category": "design",
+      "subCategory": "generator",
+      "type": "free",
+      "link": "https://www.gradii.fun/",
+      "tags": ["gradients"]
+    },
+    {
+      "title": "Flaticon",
+      "description": "Explore thousands of free icons for your projects.",
+      "category": "assets",
+      "subCategory": "icons",
+      "type": "free",
+      "link": "https://www.flaticon.es/",
+      "tags": ["icons"]
+    },
+    {
+      "title": "Tabler Icons",
+      "description": "Clean and customizable open-source SVG icons.",
+      "category": "assets",
+      "subCategory": "icons",
+      "type": "free",
+      "link": "https://tablericons.com/",
+      "tags": ["icons", "svg"]
+    },
+    {
+      "title": "Storyset",
+      "description": "Download customizable illustrations for your designs.",
+      "category": "assets",
+      "subCategory": "illustrations",
+      "type": "free",
+      "link": "https://storyset.com/",
+      "tags": ["illustrations"]
+    },
+    {
+      "title": "Ray.so",
+      "description": "Create beautiful code snippets for sharing.",
+      "category": "assets",
+      "subCategory": "code",
+      "type": "free",
+      "link": "https://ray.so/",
+      "tags": ["code", "sharing"]
+    },
+    {
+      "title": "v0",
+      "description": "Generate UI components using AI prompts.",
+      "category": "ai",
+      "subCategory": "ui",
+      "type": "free",
+      "link": "https://v0.dev/",
+      "tags": ["ai"]
+    },
+    {
+      "title": "Excalidraw",
+      "description": "Sketch diagrams with a hand-drawn feel.",
+      "category": "productivity",
+      "subCategory": "diagram",
+      "type": "free",
+      "link": "https://excalidraw.com/",
+      "tags": ["diagram"]
+    },
+    {
+      "title": "Motion",
+      "description": "Build smooth animations for modern web apps.",
+      "category": "development",
+      "subCategory": "animation",
+      "type": "free",
+      "link": "https://motion.dev/",
+      "tags": ["animation"]
+    },
+    {
+      "title": "Anime.js",
+      "description": "Lightweight JavaScript animation engine.",
+      "category": "development",
+      "subCategory": "animation",
+      "type": "free",
+      "link": "https://animejs.com/",
+      "tags": ["animation"]
+    },
+    {
+      "title": "GSAP",
+      "description": "Professional-grade animation library for high-performance motion.",
+      "category": "development",
+      "subCategory": "animation",
+      "type": "free",
+      "link": "https://gsap.com/",
+      "tags": ["animation"]
+    },
+    {
+      "title": "Dribbble",
+      "description": "Discover design inspiration from top creatives.",
+      "category": "inspiration",
+      "subCategory": "design",
+      "type": "free",
+      "link": "https://dribbble.com/",
+      "tags": ["design"]
+    },
+    {
+      "title": "Godly",
+      "description": "Curated collection of high-quality web designs.",
+      "category": "inspiration",
+      "subCategory": "web",
+      "type": "free",
+      "link": "https://godly.website/",
+      "tags": ["ui"]
+    },
+    {
+      "title": "RunJS",
+      "description": "Run and test JavaScript code instantly.",
+      "category": "development",
+      "subCategory": "playground",
+      "type": "free",
+      "link": "https://runjs.app/",
+      "tags": ["javascript"]
+    },
+    {
+      "title": "Quicktype",
+      "description": "Generate types and models from JSON data.",
+      "category": "development",
+      "subCategory": "playground",
+      "type": "free",
+      "link": "https://app.quicktype.io/",
+      "tags": ["typescript"]
+    },
+    {
+      "title": "Frontend Roadmap",
+      "description": "Follow a structured path to become a frontend developer.",
+      "category": "learning",
+      "subCategory": "roadmap",
+      "type": "free",
+      "link": "https://roadmap.sh/frontend",
+      "tags": ["learning"]
+    },
+    {
+      "title": "Leaflet",
+      "description": "Build interactive maps for web applications.",
+      "category": "development",
+      "subCategory": "maps",
+      "type": "free",
+      "link": "https://leafletjs.com/",
+      "tags": ["maps"]
+    },
+    {
+      "title": "LLM Stats",
+      "description": "Compare and analyze AI model performance rankings.",
+      "category": "ai",
+      "subCategory": "analytics",
+      "type": "free",
+      "link": "https://llm-stats.com/",
+      "tags": ["ai"]
+    }
+  ]
