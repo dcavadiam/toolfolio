@@ -508,5 +508,14 @@
     "type": "free",
     "link": "https://llm-stats.com/",
     "tags": ["ai"]
+  },
+  {
+    "title": "Mapbox",
+    "description": "Mapas interactivos y personalizados.",
+    "category": "desarrollo",
+    "subCategory": "mapas",
+    "type": "free",
+    "link": "https://www.mapbox.com/",
+    "tags": ["maps"]
   }
 ]
