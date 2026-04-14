@@ -329,3 +329,91 @@ h1, h2, h3, h4, h5, h6 {
     @apply font-sans;
   }
 }
+
+/* Fondos y cards — movimiento suave (respeta prefers-reduced-motion vía motion-safe en clases) */
+@keyframes toolfolio-float {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(2%, -3%) scale(1.03);
+  }
+  66% {
+    transform: translate(-2%, 2%) scale(0.98);
+  }
+}
+
+@keyframes toolfolio-shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+@keyframes toolfolio-gradient-shift {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 0.85;
+  }
+}
+
+@layer utilities {
+  .animate-toolfolio-float {
+    animation: toolfolio-float 18s ease-in-out infinite;
+  }
+  .animate-toolfolio-shimmer {
+    background-size: 200% 200%;
+    animation: toolfolio-shimmer 10s linear infinite;
+  }
+  .animate-toolfolio-gradient-shift {
+    animation: toolfolio-gradient-shift 7s ease-in-out infinite;
+  }
+}
+
+/* Fondo global — malla en movimiento (capa de página) */
+@keyframes toolfolio-mesh-drift {
+  0%,
+  100% {
+    background-position: 0% 35%;
+  }
+  50% {
+    background-position: 100% 65%;
+  }
+}
+
+.toolfolio-mesh-layer {
+  background-image: linear-gradient(
+    118deg,
+    rgba(99, 102, 241, 0.2) 0%,
+    rgba(192, 132, 252, 0.14) 22%,
+    rgba(244, 114, 182, 0.1) 44%,
+    rgba(129, 140, 248, 0.16) 66%,
+    rgba(99, 102, 241, 0.12) 100%
+  );
+  background-size: 400% 400%;
+  animation: toolfolio-mesh-drift 24s ease-in-out infinite;
+}
+
+.dark .toolfolio-mesh-layer {
+  background-image: linear-gradient(
+    118deg,
+    rgba(99, 102, 241, 0.28) 0%,
+    rgba(167, 139, 250, 0.18) 24%,
+    rgba(244, 114, 182, 0.12) 48%,
+    rgba(129, 140, 248, 0.2) 72%,
+    rgba(79, 70, 229, 0.15) 100%
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toolfolio-mesh-layer {
+    animation: none;
+    background-position: 50% 50%;
+  }
+}

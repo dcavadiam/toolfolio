@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist_Mono, Inter, Manrope, Geist } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import DynamicBackground from "@/components/layout/DynamicBackground";
 import Footer from "@/components/layout/Footer";
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
@@ -66,7 +67,8 @@ export default function RootLayout({
         geistMono.variable
       )}
     >
-      <body className="flex min-h-full flex-col">
+      <body className="relative isolate flex min-h-full flex-col">
+        <DynamicBackground />
         {children}
         <Footer />
       </body>
