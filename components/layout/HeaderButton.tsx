@@ -16,7 +16,8 @@ export default function HeaderButton() {
       }}
     >
       <PlusIcon className="size-4" />
-      Sugerir una herramienta
+      <span className="hidden sm:inline">Sugerir una herramienta</span>
+      <span className="sm:hidden">Sugerir</span>
     </Button>
   );
 }

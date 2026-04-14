@@ -6,8 +6,8 @@ export default function Footer() {
 
   return (
     <footer className="border-t border-border px-4 py-10">
-      <section className="mx-auto flex w-full max-w-6xl flex-col gap-8 md:flex-row md:items-center md:justify-between">
-        <div className="flex flex-col gap-2">
+      <section className="mx-auto flex w-full max-w-6xl flex-col items-center gap-8 text-center md:flex-row md:items-center md:justify-between md:text-left">
+        <div className="flex max-w-md flex-col items-center gap-2 md:items-start">
           <p className="font-headline text-lg font-bold tracking-tight font-heading">
             <span className="text-primary">Toolfol</span>.io
           </p>
@@ -17,7 +17,10 @@ export default function Footer() {
           <p className="text-sm text-muted-foreground">© {year} Toolfolio</p>
         </div>
 
-        <nav aria-label="Enlaces del sitio" className="flex flex-wrap gap-x-8 gap-y-3 text-sm">
+        <nav
+          aria-label="Enlaces del sitio"
+          className="flex flex-wrap justify-center gap-x-8 gap-y-3 text-sm md:justify-end"
+        >
           <Link className="text-muted-foreground hover:text-foreground transition-colors" href="/">
             Inicio
           </Link>
