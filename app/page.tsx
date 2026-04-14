@@ -34,15 +34,15 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="flex min-h-0 flex-col items-center justify-center gap-4 bg-background p-4">
-        <section className="flex flex-col items-center justify-center gap-4 pt-24 pb-8 w-full max-w-6xl mx-auto text-center">
-          <span className="text-sm text-primary uppercase tracking-[0.2em] font-heading font-bold">
+      <main className="relative flex min-h-0 flex-col items-center justify-center gap-4 overflow-hidden p-4">
+        <section className="relative flex w-full max-w-6xl flex-col items-center justify-center gap-5 pb-10 pt-24 text-center">
+          <span className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-sm font-heading font-bold uppercase tracking-[0.2em] text-primary shadow-sm ring-1 ring-primary/10 backdrop-blur-sm dark:bg-primary/10">
             Bienvenido a Toolfolio
           </span>
-          <h1 className="text-6xl font-extrabold">
+          <h1 className="max-w-4xl bg-gradient-to-br from-foreground via-foreground to-foreground/70 bg-clip-text text-4xl font-extrabold tracking-tight text-transparent sm:text-5xl md:text-6xl md:leading-[1.08]">
             Encuentra la herramienta perfecta para tu trabajo
           </h1>
-          <p className="text-xl text-muted-foreground mb-8">
+          <p className="mb-4 max-w-2xl text-lg text-muted-foreground sm:text-xl">
             Descubre una amplia gama de herramientas diseñadas para simplificar
             tus tareas diarias y mejorar tu productividad.
           </p>
@@ -61,12 +61,18 @@ export default function Home() {
           </div> */}
         </section>
         {/* Tools list */}
-        <section id="categories" className="flex flex-col items-center justify-center gap-12 pb-24 w-full max-w-6xl mx-auto">
+        <section
+          id="categories"
+          className="mx-auto flex w-full max-w-6xl flex-col items-center justify-center gap-14 pb-24"
+        >
           {Object.entries(toolsByCategory).map(([category, categoryTools]) => (
-            <div key={category} className="flex w-full flex-col gap-4 text-left">
-              <h2 className="text-2xl font-bold tracking-tight">
-                {formatLabel(category)}
-              </h2>
+            <div key={category} className="flex w-full flex-col gap-5 text-left">
+              <div className="space-y-1">
+                <h2 className="text-2xl font-bold tracking-tight md:text-3xl">
+                  {formatLabel(category)}
+                </h2>
+                <div className="h-1 w-12 rounded-full bg-gradient-to-r from-primary to-violet-500 md:w-16" />
+              </div>
               <Carousel className="w-full">
                 <CarouselContent>
                   {categoryTools.map((tool) => (
@@ -89,8 +95,8 @@ export default function Home() {
                 </CarouselContent>
                 {categoryTools.length > 4 && (
                   <>
-                    <CarouselPrevious />
-                    <CarouselNext />
+                    <CarouselPrevious className="border-primary/25 bg-background/90 text-primary shadow-lg shadow-primary/10 backdrop-blur-sm transition-all hover:border-primary/45 hover:bg-primary/8 hover:shadow-primary/20" />
+                    <CarouselNext className="border-primary/25 bg-background/90 text-primary shadow-lg shadow-primary/10 backdrop-blur-sm transition-all hover:border-primary/45 hover:bg-primary/8 hover:shadow-primary/20" />
                   </>
                 )}
               </Carousel>
