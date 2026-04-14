@@ -48,17 +48,18 @@ export default function ToolCard({
   const slotGradient = SLOT_GRADIENTS[gradIdx];
 
   return (
-    <div
-      className={cn(
-        "group relative flex h-full w-full max-w-lg flex-col gap-4 overflow-hidden rounded-2xl border border-border/60 bg-card p-4 text-card-foreground",
-        "shadow-[0_1px_0_0_rgba(255,255,255,0.06)_inset,0_8px_32px_-12px_rgba(15,23,42,0.12)]",
-        "dark:shadow-[0_1px_0_0_rgba(255,255,255,0.04)_inset,0_12px_40px_-16px_rgba(0,0,0,0.45)]",
-        "transition-[transform,box-shadow,border-color] duration-300 ease-out",
-        "motion-safe:hover:-translate-y-1.5 motion-safe:hover:border-primary/30",
-        "motion-safe:hover:shadow-[0_20px_50px_-18px_rgba(99,102,241,0.35),0_1px_0_0_rgba(255,255,255,0.08)_inset]",
-        "dark:motion-safe:hover:shadow-[0_24px_60px_-20px_rgba(99,102,241,0.28),0_1px_0_0_rgba(255,255,255,0.06)_inset]",
-      )}
-    >
+    <div className="group h-full min-h-0 w-full max-w-lg">
+      <div
+        className={cn(
+          "relative flex h-full w-full flex-col gap-4 overflow-hidden rounded-2xl border border-border/60 bg-card p-4 text-card-foreground",
+          "shadow-[0_1px_0_0_rgba(255,255,255,0.06)_inset,0_8px_32px_-12px_rgba(15,23,42,0.12)]",
+          "dark:shadow-[0_1px_0_0_rgba(255,255,255,0.04)_inset,0_12px_40px_-16px_rgba(0,0,0,0.45)]",
+          "transition-[transform,box-shadow,border-color] duration-300 ease-out",
+          "motion-safe:group-hover:-translate-y-1.5 motion-safe:group-hover:border-primary/30",
+          "motion-safe:group-hover:shadow-[0_20px_50px_-18px_rgba(99,102,241,0.35),0_1px_0_0_rgba(255,255,255,0.08)_inset]",
+          "dark:motion-safe:group-hover:shadow-[0_24px_60px_-20px_rgba(99,102,241,0.28),0_1px_0_0_rgba(255,255,255,0.06)_inset]",
+        )}
+      >
       <div
         className={cn(
           "relative min-h-[5.25rem] w-full overflow-hidden rounded-xl p-4 shadow-inner ring-1 ring-inset ring-white/25 dark:ring-white/[0.07]",
@@ -144,6 +145,7 @@ export default function ToolCard({
           <span className="sr-only">{`Abrir ${title}`}</span>
         </button>
       </div>
+    </div>
     </div>
   );
 }
