@@ -1,3 +1,4 @@
+import ToolRecommendationChat from "@/components/chat/ToolRecommendationChat";
 import Header from "@/components/layout/Header";
 import ToolCard from "@/components/layout/ToolCard";
 import type { ToolItem } from "@/types";
@@ -97,6 +98,7 @@ export default function Home() {
           ))}
         </section>
       </main>
+      <ToolRecommendationChat />
     </>
   );
 }
